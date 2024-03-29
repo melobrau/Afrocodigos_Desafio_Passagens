@@ -1,24 +1,13 @@
-def mostra_menu():
-    print("*=" *50)
-    print("Escolha uma das opções abaixo:")
-    print("Digite 1 para COMPRAR passagens!")
-    print("Digite 2 para LISTAR passagens.")
-    print("Digite 3 para sair do programa.")
-    print("*=" *50)
-    print()
+from passagens import PassagensAereasManager
 
-class PassagensAereasManager():
-        passagens_compradas = ["FAKE"]
+from menu import mostra_menu
 
-def adicionar_passagem(self,passagem):
-            self.passagens_compradas.append(passagem)
 
-    
 while True:
 
     passagens_aereas_manager = PassagensAereasManager()
 
-    #MOSTRAR MENU
+    #MOSTRAR O MENU
     mostra_menu()
 
     entrada_do_usuario = int(input())
